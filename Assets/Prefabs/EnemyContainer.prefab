@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1265177339593164}
+  m_IsPrefabParent: 1
+--- !u!1 &1265177339593164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4589816031976908}
+  - component: {fileID: 212912895339558172}
+  - component: {fileID: 114080932084871780}
+  m_Layer: 0
+  m_Name: EnemyContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4589816031976908
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1265177339593164}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4.9, z: 0}
+  m_LocalScale: {x: 10, y: 0.1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114080932084871780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1265177339593164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2802b2d1aaad934da25ed75bf92bd0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyrow: 13
+  enemycol: 4
+  dir: 0
+  backupdir: 0
+  d: 0
+  scr: 0
+  commencingScramble: 0
+  canEventSpawn: 0
+  isPaused: 0
+  quitting: 0
+  stage: 0
+  Enemenemy: {fileID: 1906088759221356, guid: ca345b36ca0d8d24c84cec6fdf555a38, type: 2}
+  Playar: {fileID: 1136438918026820, guid: f954d5de55414bb4fa29589fcdeb99f6, type: 2}
+  LaserEnemy: {fileID: 1668303854816804, guid: 15e3177aca16ac1459942d8f7aa129af, type: 2}
+  BombEnemy: {fileID: 1694264604913434, guid: d0c4841a3f0c98744a3532cb45e09504, type: 2}
+  EventEnemy: {fileID: 1449687232886336, guid: 3dfcaac58cc2f6d4e97b9bd1b79d34f3, type: 2}
+  ArmorEnemy: {fileID: 1149271376711230, guid: fe05155dc8cd2a04bb3313b7e7eaec56, type: 2}
+  ArmorlessEnemy: {fileID: 0}
+  barriero: {fileID: 1325636677876140, guid: df54e79586204a7439e71019cd6b3bf3, type: 2}
+  showcase: {fileID: 0}
+  t: {fileID: 0}
+  h: {fileID: 0}
+  r: {fileID: 0}
+  no: {fileID: 0}
+  exr: {fileID: 0}
+  tim: {fileID: 0}
+  height: -0.15
+--- !u!212 &212912895339558172
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1265177339593164}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 3a54dfb5f737d9f4b9d35302022f2352, type: 3}
+  m_Color: {r: 1, g: 0.093905, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.02, y: 2.02}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
